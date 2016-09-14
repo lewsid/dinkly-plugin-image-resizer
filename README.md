@@ -22,7 +22,7 @@ Installation
             default_module: handler
             files_directory: uploads
   ```
-  
+
   3. Create an `uploads` folder under your `web` directory and set the file permissions to ensure that it's writeable:
 
      `mkdir web/uploads`
