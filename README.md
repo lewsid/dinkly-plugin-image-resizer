@@ -7,9 +7,9 @@ Resize images in your Dinkly project on the fly
 Installation
 ------------
 
- 1. Move the `image_resizer` folder into your dinkly project's `plugins` folder.
+  1. Move the `image_resizer` folder into your dinkly project's `plugins` folder.
 
- 2. Add the following lines under the `plugins` section of your `config/config.yml` file:
+  2. Add the following lines under the `plugins` section of your `config/config.yml` file:
 
   ```yaml
   image_resizer:
@@ -42,3 +42,15 @@ Image resizer is designed to allow you to specify in the template the dimensions
 ```
 
 This would create a file named `cropped-500-315-my_image.png` inside of a `web/uploads/resized/` folder.  This can be a great time saver for frontend responsive development allowing you to drop the orginal file into the uploads folder and simply specifying the various sizes needed in each template.
+
+
+License
+-------
+
+The Dinkly Image Resizer plugin is open-sourced software licensed under the MIT License.
+
+
+Contact
+-------
+
+  - lewsid@lewsid.com (github.com/lewsid), andrew@bluehousegroup.com (github.com/andrewvt)
