@@ -7,9 +7,9 @@ Resize images in your Dinkly project on the fly
 Installation
 ------------
 
- 1. Move the `image_resizer` folder into your dinkly project's `plugins` folder.
+  1. Move the `image_resizer` folder into your dinkly project's `plugins` folder.
 
- 2. Add the following lines under the `plugins` section of your `config/config.yml` file:
+  2. Add the following lines under the `plugins` section of your `config/config.yml` file:
 
   ```yaml
   image_resizer:
