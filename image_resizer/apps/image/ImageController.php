@@ -8,16 +8,7 @@
  * @author     Christopher Lewis <lewsid@lewsid.com>
  */
 
-class ImageController extends Dinkly
+class ImageController extends BaseImageController
 {
-	/**
-	 * Default Constructor
-	 * 
-	 * @return bool
-	 * 
-	 */
-	public function __construct()
-	{
-		return true;
-	}
+	//Put overrides here...
 }
