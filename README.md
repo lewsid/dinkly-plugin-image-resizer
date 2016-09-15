@@ -15,9 +15,8 @@ Installation
   image_resizer:
     apps:
         image:
+            base_href: /image        
             app_name: Handler
-            is_plugin: true
-            base_href: /image
             enabled: true
             default_module: handler
             files_directory: uploads
